@@ -70,8 +70,6 @@ input {
 			<li><a href="adminoperations.jsp?operation=stock">Add stock</a></li>
 			<li><a href="AdminOperations?operation=ViewPurchases">Display
 					Purchase Details</a></li>
-			<li><a href="AdminOperations?operation=ViewCart">Display
-					Cart</a></li>
 			<li><a href="logout.jsp">Logout</a></li>
 		</ul>
 	</div>

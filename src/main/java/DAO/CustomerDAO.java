@@ -24,13 +24,10 @@ public class CustomerDAO {
 
 	public Login validate(Login login) {
 		System.out.println("validate");
-
 		Login login1 = new Login();
 		entityManager.getTransaction().begin();
-
 		login1 = entityManager.find(Login.class, login.getUsername());
 		System.out.println(login1);
-
 		return login1;
 	}
 

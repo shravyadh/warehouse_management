@@ -9,9 +9,9 @@ public class app {
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("WM");
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		Login login = new Login();
-		login.setUsername("kapitan");
-		login.setPassword("kapitan123");
-		login.setRole("merchant");
+		login.setUsername("admin");
+		login.setPassword("admin123");
+		login.setRole("admin");
 
 
 //		Customer customer = new Customer();
